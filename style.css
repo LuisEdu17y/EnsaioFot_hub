@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+header
+{
+    box-shadow: 0px 0px 20px;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+    
+
+}
+header span
+{
+    font-family: "Short Stack", cursive;
+  font-weight:bold;
+  font-size: 2rem;
+  font-style: normal;
+
+}
+nav
+{
+    background-color: rgb(rgb(70, 17, 196),);
+    font-family: Arial, sans-serif;
+}
+nav .lista
+{
+    display: flex;
+    gap: 8px;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    position: relative;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: rgb(46, 5, 5);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 16px;
+  }
+  nav ul li a:hover {
+    background-color: rgb(92, 92, 92);
+  }
+  nav ul li ul {
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: rgb(34, 34, 34);
+    display: none;
+    min-width: 150px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0 0 5px 5px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0);
+  }
+  nav ul li ul li a {
+    padding: 10px 15px;
+    color: white;
+  }
+  nav ul li ul li a:hover {
+    background-color: rgb(82, 82, 82);
+  }
+  
+  nav ul li:hover > ul {
+    display: block;
+    z-index: 2;
+  }
+.carousel
+{
+    width: 500px;
+    margin: auto;
+    
+}
+
+main
+{
+    padding-top: 50px;
+   
+}
+.card span
+{
+    font-family: "Short Stack", cursive;
+    font-weight:bold;
+    font-size: 1.3rem;
+ 
+  
+
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 20px 20px;
+    
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-align: left;
+    color: rgba(255, 255, 255, 0.733);
+  }
+ 
